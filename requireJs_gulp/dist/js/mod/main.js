@@ -1,0 +1,1 @@
+define("math",[],function(){var n=function(n,e){return n+e};return{add:n}}),require(["math","jquery"],function(n,e){e("body").append(n.add(3,4))}),define("main",function(){});
